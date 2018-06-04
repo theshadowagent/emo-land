@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: auto !important;
+}
+
+.header {
+    font-weight: 400;
+    font-size: 68px;
+    text-align: center;
+}
+
+.content {
+    margin: auto;
+    width: 80%;
+}
+
+
+.emoji-card {
+    width: 150px !important;
+    min-height: 150px !important;
+    padding: 8px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.emoji-card-focus {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.emoji {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.search-button-wrapper {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.emoji-name {
+    font-weight: 400;
+}
+
+.search-button {
+    background-color: #D60B42 !important;
+    font-size: 1.5em;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+}
+
+.search-icon {
+    margin-right: 8px;
+}
+
+/*.container .search-bar-content {*/
+    /*padding: 0 12px;*/
+    /*height: 100%;*/
+    /*display: flex;*/
+    /*border: 0;*/
+    /*align-items: center;*/
+/*}*/
+
+/*.container {*/
+    /*width: 400px;*/
+    /*height: 30px;*/
+    /*background: white;*/
+    /*border: 1px solid gray;*/
+    /*border-radius: 20px;*/
+/*}*/
