@@ -3,6 +3,11 @@ body {
     min-height: auto !important;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .header {
     font-weight: 400;
     font-size: 68px;
@@ -11,29 +16,33 @@ body {
 
 .content {
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
-
 
 .emoji-card {
     width: 150px !important;
     min-height: 150px !important;
     padding: 8px;
-    margin: auto;
+    margin: 8px;
     background-color: rgba(255, 255, 255, 0);
     text-align: center;
 }
 
+.card-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .emoji-card-focus {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #D60B42;
+    border-radius: 150px;
+    margin: 8px;
 }
 
 .emoji {
     width: 50%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
 .search-button-wrapper {
@@ -58,18 +67,38 @@ body {
     margin-right: 8px;
 }
 
-/*.container .search-bar-content {*/
-    /*padding: 0 12px;*/
-    /*height: 100%;*/
-    /*display: flex;*/
-    /*border: 0;*/
-    /*align-items: center;*/
-/*}*/
+.movie-card {
+    width: 250px;
+    height: auto;
+    margin: auto;
+}
 
-/*.container {*/
-    /*width: 400px;*/
-    /*height: 30px;*/
-    /*background: white;*/
-    /*border: 1px solid gray;*/
-    /*border-radius: 20px;*/
-/*}*/
+.movie-poster {
+    width: 250px;
+    border-radius: 4px;
+    height: auto;
+}
+
+.mdl-card__media {
+    background-color: white;
+}
+
+.movie-title {
+    font-weight: 500;
+    font-size: 11pt;
+    margin-right: 8px;
+}
+
+.rating {
+    background-color: #D60B42;
+    width: 30px;
+    height: 30px;
+    color: white;
+    float: right;
+    font-weight: 500;
+    font-size: 11pt;
+    line-height: 30px;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 15px;
+}

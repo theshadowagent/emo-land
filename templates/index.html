@@ -1,17 +1,19 @@
 {% extends "layout.html" %}
 {% block body %}
-<div class="mdl-layout">
+<div class="content mdl-layout">
 <main class="mdl-layout__content">
     <!--<div class="container">-->
     <!--<div class="search-bar-content">-->
       <!--<input type="search" placeholder="Search brand">-->
     <!--</div>-->
   <!--</div>-->
- <div class="content mdl-grid emoji-grid result">
+ <div class="mdl-grid emoji-grid result">
         {% for emotion in emotions %}
+            <div class="card-container">
             <div class="mdl-card mdl-cell mdl-cell--col emoji-card" id="{{ emotion.id }}">
                 <img src="/static/images/emoji/{{ emotion.name }}.png" class="emoji">
                  <div class="emoji-name">{{ emotion.name_ru }}</div></div>
+            </div>
         {% endfor %}
         </div>
         <div class="search-button-wrapper">
